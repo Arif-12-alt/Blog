@@ -1,0 +1,690 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  background-color: rgb(61, 54, 54);
+ padding: 5px;
+}
+.nav ul{
+  display:flex;
+  list-style: none;
+  gap: 60px;
+;
+}
+.nav ul li:hover{
+  background-color:#f37901;
+}
+.nav li{
+  color: rgb(252, 242, 242);
+  margin-top: 17px;
+}
+.image img{
+  height:46px;
+  margin-top: 10px;
+}
+.button input{
+  margin-top:15px;
+  background: #f37901;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:10px;
+  border: 0cap;
+}
+.head{
+  color:#f37901;
+  text-align: center;
+}
+.ima{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ima img{
+  height: 60px;
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+height: 200px;
+width: 200px;
+background-color: rgb(251, 248, 248);
+text-align: center;
+box-shadow: 2px 5px 6px 5px #f37901;
+}
+.heading{
+margin: 70px;
+text-align: center;
+}
+.heading h1{
+  color: #f37901;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: arial;
+}
+.heading p{
+  font-family: arial;
+font-size: 20px;
+}
+.bullet{
+  display: flex;
+  justify-content:space-evenly;
+}
+  
+.bullet img{
+  height: 350px;
+}
+.bull{
+  margin: auto;
+}
+.bull h3{
+  font-size: 40px;
+  color:#f37901;
+}
+.bull li{
+  font-size: 20px;
+  list-style: none;
+}
+.col{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  width: 20rem;
+  height:25rem;
+}
+.card {
+  box-shadow: 5px 3px 5px 4px black;
+}
+.cads{
+  display: flex;
+  justify-content: space-between;
+}
+.card-link{
+  color:#f37901;
+  text-decoration: none;
+}
+.abo img{
+  text-align: center;
+  height: 300px;
+}
+.footer{
+  background-color: rgb(25, 19, 19);
+  height: 150px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-around; 
+
+}
+.bottom h1{
+  color: white;
+  margin-top: 50px;
+  font-size: arial;
+}
+.bottom button{
+background-color: #f37901;
+color: white;
+margin-top: 50px;
+padding: 15px;
+border-radius: 10px;
+border: 0;
+font-weight: 600;
+}
+.foot{
+  background-color: black;
+  height: 420px;
+}
+.footers{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.footers h5{
+  margin-top: 30px;
+}
+.footers h2{
+  margin-top: 20px;
+}
+.footers h5:hover{
+  background-color:#f37901;
+}
+.for input{
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.for button{
+  padding: 10px;
+  margin: auto;
+  font-family: arial;
+  border: 0;
+  font-size: 12px;
+}
+.for i{
+  color: #f37901;
+  font-size: 22px;
+}
+.icon i{
+  margin-top: 7px;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+}
+.bot{
+  background-color:rgb(25, 19, 19);
+  height: 100px;
+  display: flex;
+justify-content: space-around;
+}
+.bot img{
+  height: 60px;
+  margin-top: 30px;
+}
+.bot h6{
+  margin-top: 35px;
+  color: white;
+}
+.carousel-item{
+  height:80%;
+}
+.carousel-caption h1{
+  margin-top: -250px;
+  font-size: 60px;
+  font-weight: 800;
+}
+.text{
+text-align: center;
+font-family: arial;
+}
+.text h3{
+  font-weight: bold;
+}
+.text p{
+  font-size: 20px;
+}
+.text h2{
+  font-weight: bold;
+  color: #f37901;
+}
+.book{
+  display: flex;
+  gap: 35px;
+}
+.bok img{
+  height: 300px;
+}
+.bok h1{
+margin-top: -200px;
+color: white;
+text-align: center;
+font-weight: 650;
+}
+.bo{
+  display: flex;
+  gap: 47px;
+}
+.photo img{
+  height: 340px;
+}
+.photo h1{
+  text-align: center;
+  margin-top: -200px;
+  color: white;
+  font-weight: 700;
+}
+.photo h5{
+  text-align: center;
+}
+.container{
+  text-align: center;
+}
+.form-floating{
+background-color: black;
+height: 400px;  
+text-align: center;
+}
+.form-floating h1{
+  color: #f37901;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 10px;
+}
+.form-floating button{
+  padding: 10px 30px 10px 30px;
+  background-color: #f37901;
+  margin: auto;
+}
+.note{
+  height: 150px;
+  background: #efebeb;
+  text-align: center;
+}
+.note h3{
+  font-family: arial;
+  font-weight: 700;
+  padding: 20px;
+}
+.note h2{
+  font-family: arial;
+  font-weight: 600;
+  margin-top: -20px;
+  color: #f37901;
+}
+.note p{
+  font-size: 20px;
+}
+.popup {
+  position: relative;
+  width: 320px;
+  height: fit-content;
+  background: #FFFFFF;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.ic {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #ECF1FD;
+  box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+  border-radius: 5px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #2B2B2F;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #5F5D6B;
+}
+
+.input_field {
+  width: 100%;
+  height: 42px;
+  padding: 0 0 0 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 1px #2B2B2F;
+  background-color: transparent;
+}
+
+.form button.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%);
+  box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+  border-radius: 5px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+    
+@media (max-width:1200px){
+  .carousel-item h5{
+    font-size: 20px;
+  }
+  .carousel-item p{
+    font-size: 10px;
+  }
+.about .cards{
+flex-wrap: wrap;
+gap: 60px;
+}
+.ima img{
+height: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+.about .cads{
+flex-wrap: wrap;
+gap: 50px;
+justify-content: center;
+}
+.about .bullet{
+flex-wrap: wrap;
+justify-content: center;
+}
+.book{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 150px;
+}
+.book .bok{
+  flex: 0 0 100%;
+  max-width: 90%;
+}
+.container .photo{
+ display: none;
+}
+}
+@media (max-width:1030px){
+  .nav .image img{
+    height: 25px;
+  }
+  .nav ul li{
+    font-size: 10px;
+  }
+  .icon i{
+  font-size: 12px;
+  }
+  .button input{
+    padding: 5px;
+    font-size: 5px;
+  }
+  }
+  @media (max-width:890px){
+    .carousel-caption h1{
+      font-size: 40px;
+    }
+    .heading h1{
+      font-size: 40px;
+    }
+  }
+@media (max-width:800px){
+.nav .image img{
+  height: 25px;
+}
+.nav ul li{
+  font-size: 10px;
+}
+.icon i{
+font-size: 12px;
+}
+.button input{
+  padding: 5px;
+  font-size: 5px;
+}
+.note h3{
+  font-size: 20px;
+}
+.not p{
+  font-size: 15px;
+}
+}
+@media (max-width:720px){
+  .nav .image img{
+    height: 15px;
+  }
+  .nav ul{
+    gap: 30px;
+  }
+  .nav ul li{
+    font-size: 5px;
+    margin-left:0;
+  }
+  .text h3{
+    font-size: 20px;
+  }
+  .text p{
+    font-size: 15px;
+  }
+  .heading h1{
+    margin-top: 100px;
+  }
+  .ima{
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    gap: 120px;
+  }
+  .icon i{
+  font-size: 9px;
+  }
+  .button input{
+    padding: 5px;
+    font-size: 5px;
+  }
+  .footer .bottom h1{
+    font-size: 15px;
+    margin-top: 70px;
+  }
+  .footer .bottom button{
+    padding: 9px;
+    font-size: 10px;
+  }
+  .footers h5{
+    font-size: 10px;
+  }
+  .for h2{
+    font-size: 15px;
+  }
+  .for input{
+    padding: 5px;  
+  }
+  .for button{
+    padding: 5px;
+    font-size: 5px;
+  }
+  .for i{
+    font-size: 12px;
+  }
+  .for p{
+    font-size: 15px;
+  }
+
+    .heading h1{
+      font-size: 35px;
+    }
+    .heading p{
+      font-size: 15px;
+    }
+    .about .bullet img{
+      height: 280px;
+    }
+    .about .bullet h3{
+      font-size: 25px;
+    }
+    .about .bullet h4{
+      font-size: 20px;
+    }
+    .about .bullet li{
+      font-size: 15px;
+    }
+    .ima{
+      gap: 10px;
+    }
+        
+    .bot img{
+      height: 30px;
+      margin-top: 35px;
+    }
+    .bot h6{
+      font-size: 10px;
+      margin-top: 40px;
+    }
+    .book .bok{
+      margin-left: -60px;
+       }
+  }
+  @media(max-width:600px){
+    .heading h1{
+      font-size: 25px;
+    }
+    .carousel-caption h1{
+      margin-top: -130px;
+           }
+  }
+  @media (max-width:590px){
+    .carousel-caption h1{
+font-size: 20px;
+    }  
+    .book .bok h1{
+      display: none;
+    }
+   
+  }
+  @media (max-width:530px){
+    .book .bok img{
+      width: 95%;
+      margin-left: 50px;
+       }
+       .heading h1{
+        margin-top: 50px;
+        font-size: 20px;
+      }
+      .note h3{
+        font-size: 20px;
+      }
+      .note p{
+        font-size: 15px;
+      }
+  }
+  @media (max-width:435px){
+    .nav .image img{
+      height: 10px;
+    }
+    .nav ul{
+      gap: 15px;
+    }
+    .carousel-caption h1{
+     margin-top: -100px;
+          }
+    .head h3{
+      font-size: 15px;
+    }
+    .ima{
+      gap: 20px;
+    }
+    .note h3{
+      font-size: 17px;
+    }
+    .not p{
+      font-size: 15px;
+    }
+    .heading h1{
+      font-size: 17px;
+    }
+    .heading  p{
+      font-size: 15px;
+    }
+    .about .bullet img{
+      height: 200px;
+    }
+    .about .bullet h3{
+      font-size: 17px;
+    }
+    .about .bullet h4{
+      font-size: 15px;
+    }
+    .about .bullet li{
+      font-size: 10px;
+    }
+    .about .cads img{
+      height: 200px;
+    }
+
+  }
+  @media (max-width:400px){
+    .footer .bottom h1{
+      font-size: 10px;
+      margin-top: 70px;
+    }
+    .footer .bottom button{
+      padding-top: 1px;
+      padding-bottom: 1px;
+      font-size: 5px;
+  
+    }
+    .about .bullet{
+      margin-top: -60px;
+    }
+    .footers h5{
+      font-size: 5px;
+    }
+    .for h2{
+      font-size: 8px;
+    }
+    .for input{
+      padding: 0px 0px 0px 0px;  
+    }
+    .for button{
+      padding: 4px;
+      font-size: 5px;
+    }
+    .for p{
+      font-size: 8px;
+    }
+    .for i{
+      font-size: 15px;
+    }
+    
+    .bot img{
+      height: 20px;
+      margin-top: 35px;
+    }
+    .bot h6{
+      font-size: 5px;
+      margin-top: 40px;
+    }
+  }
+    @media (max-width:350px){
+      .nav .image img{
+        height: 10px;
+      }
+      .nav ul{
+        gap: 10px;
+      }
+      .note h3{
+        font-size: 14px;
+      }
+      .note p{
+        font-size: 12px;
+      }
+    }
+  
